@@ -1,0 +1,6 @@
+{
+  "name": "The Food Factory Malta | Creating Taste",
+  "description": "The Food Factory Malta is a large-scale food production and catering facility delivering food manufacturing, ready meals, bakery, pastry, R&D and specialised food solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
