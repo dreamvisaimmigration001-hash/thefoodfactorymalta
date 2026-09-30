@@ -14,12 +14,12 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
   const logoUrl = 'https://thefoodfactory.com.mt/wp-content/uploads/2020/02/foodfactory.svg';
 
   return (
-    <div className={`inline-flex items-center gap-2 ${className}`}>
+    <div className={`inline-flex items-center gap-2 ${variant === 'dark' ? 'bg-[#1A1A1A] px-3 py-1.5 rounded-lg shadow-sm' : ''} ${className}`}>
       {!loadError ? (
         <img
           src={logoUrl}
           alt="The Food Factory Malta"
-          className={`${className} object-contain transition-opacity duration-300 ${
+          className={`h-full w-auto object-contain transition-opacity duration-300 ${
             variant === 'light' ? 'brightness-0 invert' : ''
           }`}
           onError={() => setLoadError(true)}
